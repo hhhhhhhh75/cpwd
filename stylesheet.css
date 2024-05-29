@@ -41,7 +41,7 @@ nav {
 
 #side-menu {
 	background-color:black;
-	transition: all 0.2s;
+	transition: all 0.4s;
 	visibility:hidden;
 	opacity:0;
 	display:flex;
