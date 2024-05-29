@@ -158,11 +158,13 @@ function toggleMenu() {
 		document.getElementById("side-menu").style.opacity="0";
 		document.getElementById("side-menu").style.visibility="hidden";
 		document.getElementById("main-menu").style.display="none";
+		document.body.style.overflowY = "visible";
 	}
 	else{
 		document.getElementById("side-menu").style.visibility="visible";
 		document.getElementById("side-menu").style.opacity="1";
 		document.getElementById("main-menu").style.display="none";
+		document.body.style.overflowY = "hidden";
 	}
 }
 
