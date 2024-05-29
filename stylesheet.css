@@ -436,7 +436,7 @@ font-size:25px;
 
 
 .bar {
-	transition:all 0.2s;
+	transition:all 0.2s ease-in-out;
 	margin:6px;
 	margin-right:0px;
 	z-index:5;
