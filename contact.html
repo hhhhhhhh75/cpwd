@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,600,0,-25" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body onload="">
+<script src="script.js"></script>
+
+<nav>
+	<div id="nav">
+	<a id="logo" style="padding:0;margin:0;display:flex;justify-content:center;border:solid 0px transparent;" href="index.html"><img src="images/carterpoolweb.png"></a>
+
+	<div id="main-menu">
+		<a class="main-links link" href="index.html">HOME</a>
+		<a style="margin:0;padding:0;font-family:dataControl;">/</a>
+		<a class="main-links link" href="portforlio.html">PORTFORLIO</a>
+		<a style="margin:0;padding:0;font-family:dataControl;">/</a>
+		<a class="main-links link" href="pricing.html">PRICING</a>
+		<a style="margin:0;padding:0;font-family:dataControl;">/</a>
+		<a class="main-links" href="contact.html" style="margin-right:0px; color:white;"><button>CONTACT</button></a>
+		
+	</div>
+	
+	<div id="hamburger-wrapper" onclick="xAnimation();toggleMenu()" style="z-index: 20;  right:20px; position:absolute;">
+			<span class="bar" id="bar1"></span>
+			<span class="bar" id="bar2"></span>
+			<span class="bar" id="bar3"></span>
+		</div>
+	<div id="side-menu" style="background-color: black;">
+		<a href="index.html" >HOME</a>
+		<a style="margin:0;padding:0;font-family:dataControl;">/</a>
+		<a href="portforlio.html">PORTFORLIO</a>
+		<a style="margin:0;padding:0;font-family:dataControl;">/</a>
+		<a href="pricing.html">PRICING</a>
+		<a style="margin:0;padding:0;font-family:dataControl;">/</a>
+		<a href="contact.html" style="color:white" >CONTACT</a>
+		</div>
+	</div>
+</nav>
+	
+	<div class="contact-wrapper">
+		<div class="contact-thing" style="display:flex;flex-direction:row;justify-content:space-between;width:100%;">
+		<div class="contact-info">
+			<h2>Contact Carter</h2>
+			<p>Interested in a fresh new website? Or just simply curious about something? Dont hesitate to send a message!</p>
+			
+			
+		</div>
+	
+		<div class="contact-form-div">
+			<form class="contact-form">
+				<label>Name:</label>
+				<input placeholder="George Orwell">
+				
+				<label>Email:</label>
+				<input placeholder="georgeorwell@bigbrother.ca">
+	
+				<label>Inquiry:</label>
+				<input placeholder="Im here to join the brotherhood...">
+				
+				<label style="display:flex;flex-direction:row;align-items:center">Other Comments: <p style="font-size:18px;margin:0px;">{OPTIONAL}</p></label>
+				<input  placeholder="War is Peace. Freedom is Slavery. Ignorance is Strength.">
+				
+				<input type="submit" style="margin-top:20px;" value="SUBMIT">
+				
+			</form>
+		</div>
+	</div>
+	</div>
+</body>
+</html>

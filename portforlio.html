@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@40,600,0,-25" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body onload="">
+<script src="script.js"></script>
+
+<nav>
+	<div id="nav">
+	<a id="logo" style="padding:0;margin:0;display:flex;justify-content:center;border:solid 0px transparent;" href="index.html"><img src="images/carterpoolweb.png"></a>
+
+	<div id="main-menu">
+		<a class="main-links link" href="index.html">HOME</a>
+		<a style="margin:0;padding:0;font-family:dataControl;">/</a>
+		<a class="main-links link" style="color:white;" href="portforlio.html">PORTFORLIO</a>
+		<a style="margin:0;padding:0;font-family:dataControl;">/</a>
+		<a class="main-links link" href="pricing.html">PRICING</a>
+		<a style="margin:0;padding:0;font-family:dataControl;">/</a>
+		<a class="main-links" href="contact.html" style="margin-right:0px;"><button>CONTACT</button></a>
+		
+	</div>
+	
+	<div id="hamburger-wrapper" onclick="xAnimation();toggleMenu()" style="z-index: 20;  right:20px; position:absolute;">
+			<span class="bar" id="bar1"></span>
+			<span class="bar" id="bar2"></span>
+			<span class="bar" id="bar3"></span>
+		</div>
+	<div id="side-menu" style="background-color: black;">
+		<a href="index.html">HOME</a>
+		<a style="margin:0;padding:0;font-family:dataControl;">/</a>
+		<a href="portforlio.html" style="color:white;">PORTFORLIO</a>
+		<a style="margin:0;padding:0;font-family:dataControl;">/</a>
+		<a href="pricing.html">PRICING</a>
+		<a style="margin:0;padding:0;font-family:dataControl;">/</a>
+		<a href="contact.html" >CONTACT</a>
+		</div>
+	</div>
+</nav>
+	<div class="main-content">
+		<div class="port-wrapper">
+		<!--
+			<div class="port" >
+			
+				<div class="port-info">
+					<h2>Maddox Sawatskzy Photography</h2>
+					<p>This website is showcasing some of Maddox Sawatskzy's best photos! The main ephasis being on the images, keeping the theme relatively simple.</p>
+					<a href="https://msawatzkyphotography.com/" class="port-link" target="_blank">msawatzkyphotography.com</a>
+				</div>
+			
+				<div class="port-slideshow">
+					<div class="port-slideshow-buttons">
+						<button class="port-button" onclick="slide('port-slideshow-images', -1)" style="display:flex;justify-content:flex-start;align-items:center;" ><span class="material-symbols-rounded">navigate_before</span></button>
+						<button class="port-button" onclick="slide('port-slideshow-images', 1)" style="display:flex;justify-content:flex-end;align-items:center;"><span class="material-symbols-rounded">navigate_next</span></button>
+					</div>
+
+					<div class="port-slideshow-images"  id="port-slideshow-images" >
+						<img id="port1img1" src="images/port1img1v2.jpg">
+						<img id="port1img2" src="images/port1img2.jpg">
+						<img id="port1img3" src="images/port1img3.jpg">
+						
+					</div>
+					<p style="z-index:1;position:absolute;padding-top:220px;padding-left:7px;font-size:25px;" id="count">0</p>
+				</div>
+				
+			</div>
+			
+			<div class="port">
+				<div class="port-info">
+					<h2>Cascade Mountain Kennels</h2>
+					<p>This website is designed for users to learn about bernese mountain dogs. As well as see if any are available for adoption.</p>
+					<p style="margin:0px;">*WORK IN PROGRESS</p>
+				<a href="https://hhhhhhhh75.github.io/cmk/index.html" class="port-link" target="_blank">cascademountainkennels.com</a>
+				</div>
+		
+		
+				<div class="port-slideshow">
+					<div class="port-slideshow-buttons">
+						<button class="port-button" onclick="slide('port-slideshow-images2', -1)" style="display:flex;justify-content:flex-start;align-items:center;" ><span class="material-symbols-rounded">navigate_before</span></button>
+						<button class="port-button" onclick="slide('port-slideshow-images2', 1)" style="display:flex;justify-content:flex-end;align-items:center;"><span class="material-symbols-rounded">navigate_next</span></button>
+					</div>
+					<div class="port-slideshow-images"  id="port-slideshow-images2" >
+						<img id="port1img1" src="images/port2img1.jpg">
+						<img id="port1img2" src="images/port2img2.jpg">
+						<img id="port1img3" src="images/port2img3.jpg">
+						
+					</div>
+					<p style="z-index:1;position:absolute;padding-top:220px;padding-left:7px;font-size:25px;" id="count">0</p>
+				</div>
+				
+			</div>
+			-->
+			<div class="port ms">
+				<div class="" style="width:100%;height:100%;position:absolute;">
+					<img class="port-back-img" src="images/maddox.jpg">
+				</div>
+				
+				<div class="port-info">
+					<h2>Maddox Sawatskzy Photography</h2>
+				</div>
+				
+				<div class="port-img" >
+					<p>This website is showcasing some of Maddox Sawatskzy's best photos! The main ephasis being on the images, keeping the theme relatively simple.</p>
+					<a href="https://msawatzkyphotography.com/" class="port-link" target="_blank">msawatzkyphotography.com</a>
+				</div>
+	
+					
+			</div>
+			<div class="port ms">
+				<div class="" style="width:100%;height:100%;position:absolute;">
+					<img class="port-back-img" src="images/dog.jpeg">
+				</div>
+				
+				<div class="port-info">
+					<h2>Cascade Mountain Kennels</h2>
+				</div>
+				
+				<div class="port-img" >
+					<p>This website is designed for users to learn about bernese mountain dogs. As well as see if any are available for adoption.</p>
+					<p style="margin:0px;">*WORK IN PROGRESS</p>
+					<a href="https://hhhhhhhh75.github.io/cmk/index.html" class="port-link" target="_blank">cascademountainkennels.com</a>
+				</div>
+	
+					
+			</div>
+			<div class="port ms">
+				<div class="" style="width:100%;height:100%;position:absolute;">
+					
+				</div>
+				
+				<div class="port-info">
+					<h2>This could be your business here...</h2>
+				</div>
+				
+				<div class="port-img">
+					<p style="">This could be your businesses website here. Interested? Click the button below to contact Carter to get a quote!</p>
+					<a href="contact.html" class="port-link"><button style="width:150px;">Get in Touch</button></a>
+				</div>
+	
+					
+			</div>
+			
+		</div>
+	</div>
+</body>
+</html>
