@@ -578,7 +578,9 @@ padding:70px;
 		margin-left:20px;
 		margin-right:20px;
 		width:calc(100% - 40px);
-		
+		height:100%;
+		padding-top:20px;
+		padding-bottom:20px;
 	}
 	
 	#hamburger-wrapper {
@@ -671,16 +673,12 @@ padding:70px;
 		margin-left:0px;
 		margin-right:0px;
 	}
+
 }
 
 
-@media only screen and (max-height: 750px) {
-	.contact-wrapper {
-		padding-top:40px;
-		padding-bottom:40px;
+@media only screen and (max-height: 850px) {
 
-		
-	}
 	
 }
 
